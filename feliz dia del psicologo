@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Día del Psicólogo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #ffe6f0, #ffffff);
+      font-family: 'Segoe UI', sans-serif;
+      color: #5a2d2d;
+      text-align: center;
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      color: #c2185b;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.3em;
+      max-width: 600px;
+      margin: 0 auto 30px;
+      line-height: 1.6;
+    }
+
+    .rosas {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .rosas img {
+      width: 120px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .firma {
+      margin-top: 40px;
+      font-size: 1em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>¡Feliz Día del Psicólogo!</h1>
+    <p>Gracias por ser guía, escucha, apoyo y luz para tantas personas.  
+    Hoy celebramos tu vocación, tu empatía y tu entrega.  
+    ¡Que tu labor siga floreciendo como una hermosa rosa!</p>
+
+    <div class="rosas">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Rose_pink_rose_flower.jpg" alt="Rosa rosada">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Rose_rouge.jpg" alt="Rosa roja">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/09/White_Rose_aka.jpg" alt="Rosa blanca">
+    </div>
+
+    <div class="firma">
+      Diseñado con aprecio para celebrar tu día
+    </div>
+  </div>
+
+</body>
+</html>
